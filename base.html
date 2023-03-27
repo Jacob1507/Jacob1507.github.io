@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+  <!-- css -->
+  <link rel="stylesheet" href="static/css/main.css">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Space blog</title>
+</head>
+<body>
+  <header class="col-12">
+    <h1 class="text-center" id="title-text">JWST Images</h1>
+  </header>
+
+  <section class="slider">
+    <div class="container">
+      <div id="image-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#image-carousel" data-slide-to="1"></li>
+          <li data-target="#image-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <figure class="image-container">
+              <img class="d-block w-100" src="https://live.staticflickr.com/8170/8053750888_1bb538ed67_h.jpg" alt="First slide">
+            </figure>
+          </div>
+          <div class="carousel-item">
+            <figure class="image-container">
+              <img class="d-block w-100" src="https://live.staticflickr.com/65535/51412207042_e07c9095b9_b.jpg" alt="Second slide">
+            </figure>
+          </div>
+          <div class="carousel-item">
+            <figure class="image-container">
+              <img class="d-block w-100" src="https://live.staticflickr.com/1476/26504730220_4740fe540b_h.jpg" alt="Third slide">
+            </figure>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#image-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#image-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="image-gallery">
+        <div class="row text-center">
+
+          <div class="col-sm-6 col-lg-3">
+              <div>
+                <img src="static/images/carina_nebula.jpg" alt="Carina nebula">
+              </div>
+              <div>
+                <img src="static/images/dying_star.jpg" alt="Dying star">
+              </div>
+          </div> <!-- end img col 1 -->
+          <div class="col-sm-6 col-lg-3">
+            <div>
+              <img src="static/images/deep_field.jpg" alt="Deep field image">
+            </div>
+            <div>
+              <img src="static/images/ngc_346.jpg" alt="NGC 346">
+            </div>
+          </div> <!-- end img col 2 -->
+          <div class="col-sm-6 col-lg-3">
+            <div>
+              <img src="static/images/prelude_to_supernova.jpg" alt="Prelude to supernova">
+            </div>
+            <div>
+              <img src="static/images/tarantula_nebula.jpg" alt="Tarantula nebula">
+            </div>
+          </div> <!-- end img col 3 -->
+          <div class="col-sm-6 col-lg-3">
+            <div>
+              <img src="static/images/leda_2046648.jpg" alt="LEDA 2046648">
+            </div>
+            <div>
+              <img src="static/images/stephans_quintet.jpg" alt="Stephans quintet">
+            </div>
+          </div> <!-- end img col 4 -->
+        </div>
+    </section>
+  </div>
+
+  <section class="articles">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12 col-lg-6">
+          <p class="article-item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ad beatae reprehenderit facere hic. Eius natus sit similique cum praesentium quibusdam magnam culpa, beatae modi dolor quam cupiditate? Deserunt, illo?
+          </p>
+        </div>
+
+        <div class="col-sm-12 col-lg-6">
+          <p class="article-item">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti dolor iste quod necessitatibus minus reiciendis voluptatem ratione laboriosam, id optio officia ut aspernatur illum sed non, quibusdam est iure.
+          </p> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="secondary-image-gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <img class="w-100" src="static/images/motions_of_gas_resized.jpg" alt="Motions of gas around extremely red quasar">
+        </div>
+
+        <div class="col-sm-12 col-lg-6">
+          <img class="w-100" src="static/images/webb_spectra_resized.jpg" alt="Webb spectra reach new milestone in redshift frontier">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <footer>
+        <div class="col-md-12 text-center">
+          <img src="static/images/nyan.gif" alt="">
+          <p>&copy; 2023 Jakub Bagiński</p>
+        </div>
+    </footer>
+  </div>
+
+
+  <!-- Bootstrap js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
